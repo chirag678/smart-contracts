@@ -1,0 +1,26 @@
+{
+  "name": "d-rex-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manan-m-shah/d-rex-contracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manan-m-shah/d-rex-contracts/issues"
+  },
+  "homepage": "https://github.com/manan-m-shah/d-rex-contracts#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.2",
+    "hardhat": "^2.10.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2"
+  }
+}
