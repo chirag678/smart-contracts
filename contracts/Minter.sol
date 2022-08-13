@@ -49,7 +49,7 @@ contract Minter is ERC721, ERC721URIStorage, Pausable, Ownable {
         public
     {
         // check if the NFT is in the waitlist
-        require(_tokenId >= waitlist.length, "Invalid NFT ID");
+        require(_tokenId < waitlist.length, "Invalid NFT ID");
         // change the name of the NFT
         waitlist[_tokenId].name = _name;
     }
